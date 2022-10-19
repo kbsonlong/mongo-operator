@@ -1,0 +1,8 @@
+apiVersion: mongo.alongparty.cn/v1
+kind: Mongo
+metadata:
+  name: mongo-sample
+spec:
+  # TODO(user): Add fields here
+  image: nginx
+  replica: 1
